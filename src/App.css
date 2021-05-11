@@ -1,0 +1,25 @@
+.App {
+  text-align: center;
+  font-family: cursive;
+}
+ul{
+  margin: auto;
+  width: 300px;
+}
+li{
+  list-style-type: none;
+}
+img{
+  width: 500px;
+}
+.child-props {
+  margin: 40px;
+  border-top: 1px solid grey;
+  padding-bottom: 30px;
+  border-bottom: 1px solid grey;
+}
+button {
+  width:100px;
+  padding: 6px 0;
+  margin-bottom: 20px;
+}
