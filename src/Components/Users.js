@@ -1,18 +1,30 @@
 import React from 'react'
 import User from './User'
 
-const Users = () => {
-    const handleName = (name) => {
-        alert(`hello ${name}`)
+const Users = ({isValid}) => {
+    const handleName = (n) => {
+        alert(`hello ${n}`)
     }
-    
     return (
-        <div className="users">
-            <User fullName="Wissem Chehaider" age={32} handleName={handleName} image="https://www.pngkey.com/png/detail/114-1149878_setting-user-avatar-in-specific-size-without-breaking.png"/>
-            <User fullName="Hakim Chaabani" age={28} handleName={handleName}/>
-            <User fullName="Ghassen Kefi" age={25} handleName={handleName} image="https://cdn2.iconfinder.com/data/icons/avatars-99/62/avatar-370-456322-512.png"/>
+        <div >
+            {
+                isValid &&
+                <div className="users"> 
+                <User name="Chérif" bio="MERN STACK Student" handleName={handleName} image="https://cdn1.iconfinder.com/data/icons/avatar-97/32/avatar-02-512.png" />
+                <User name="Karim" bio="Student at Esprit" handleName={handleName} />
+                <User name="Eya" bio="Student at GoMyCode" handleName={handleName} />
+                <User name="Chérif" bio="MERN STACK Student" handleName={handleName} image="https://cdn1.iconfinder.com/data/icons/avatar-97/32/avatar-02-512.png" />
+                <User name="Karim" bio="Student at Esprit" handleName={handleName} />
+                <User name="Eya" bio="Student at GoMyCode" handleName={handleName} >
+                    <img alt="kitty" src="https://www.citynews1130.com/wp-content/blogs.dir/sites/9/2017/06/05/cat.jpg" style={{width:"300px"}} />
+                </User>
+                </div>
+            }
         </div>
     )
 }
+
+//turthy && truthy ==>  truthy
+//truthy && falsy ==> falsy
 
 export default Users

@@ -1,12 +1,12 @@
-import './App.css';
-import NavBar from './Components/NavBar';
-import Users from './Components/Users';
+import "./App.css";
+import Users from "./components/Users";
+
 
 function App() {
   return (
     <div className="App">
-      <NavBar />
-      <Users />
+      <h1>Workshop React Props</h1>
+      <Users isValid={true} />
     </div>
   );
 }
