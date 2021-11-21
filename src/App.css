@@ -1,16 +1,38 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@200&display=swap');
-.App {
-  font-family: 'Roboto Mono', monospace;
+.comment{
+  float: left;
+  margin: 0%;
 }
-h1{
-  text-align: center;
-  padding-top: 50px;
+.NavBar{
+  margin-bottom: 2.5%;
 }
-.users {
-  display: flex;
-  width: 80%;
-  margin: 70px auto;
-  justify-content: space-between;
-  flex-wrap: wrap;
+.MainVideo{
+  width: 100%!important;
+  height: 538px!important;
 }
-/* rem = relative to the font size*/
+.content{
+  width: 70%;
+  margin: 5%;
+  margin-top: 0;
+}
+
+.Container{
+  width: 100%!important;
+}
+.row{
+  margin: 0!important;
+}
+.UserInfo-name{
+  color: #030303;
+}
+.Comment-text{
+  color: #030303a2;
+}
+.user-email{
+  color: #03030360;
+}
+.sidebar{
+  width: 100%;
+}
+.views{
+  color: #030303a2;
+}
