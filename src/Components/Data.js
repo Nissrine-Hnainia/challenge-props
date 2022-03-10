@@ -5,6 +5,11 @@ export const suggestions = [
         views: "3,316,655 views•Jul 16, 2018",
     },
     {
+        url: " https://www.youtube.com/embed/Ke90Tje7VS0",
+        title: "Test",
+        views: "3,000,000 views•Jul 16, 2018",
+    },
+    {
         url: "https://www.youtube.com/embed/dGcsHMXbSOA",
         title: "React Tutorial For Beginners",
         views: "551,467 views•Apr 10, 2019",
