@@ -35,11 +35,6 @@ export const suggestions = [
         views: "551,467 views•Apr 10, 2019",
     },
     {
-        url: " https://www.youtube.com/embed/Ke90Tje7VS0",
-        title: "React JS - React Tutorial for Beginners",
-        views: "3,316,655 views•Jul 16, 2018",
-    },
-    {
         url: "https://www.youtube.com/embed/dGcsHMXbSOA",
         title: "React Tutorial For Beginners",
         views: "551,467 views•Apr 10, 2019",
